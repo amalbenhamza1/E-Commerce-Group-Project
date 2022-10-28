@@ -36,8 +36,7 @@ const Navbar = () => {
                 sx={{ marginLeft: "auto" }}
                 indicatorColor="secondary"
                 textColor="inherit"
-                value={value}
-                onChange={(e, value) => setValue(value)}
+                
               >
                 <Tab label="Home" />
                 <Tab label="categories" />
